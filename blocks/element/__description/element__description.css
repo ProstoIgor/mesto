@@ -1,0 +1,6 @@
+.element__description {
+    display: flex;
+    width: 282px;
+    align-items: center;
+    justify-content: space-between;
+}

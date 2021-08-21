@@ -1,0 +1,10 @@
+.profile__bio {
+  width: 336px;
+  margin: 16px 0 0;
+  font-family: 'Inter','Helvetica Neue', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
