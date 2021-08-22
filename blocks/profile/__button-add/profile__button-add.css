@@ -2,9 +2,7 @@
     position: relative;
     width: 150px;
     height: 50px;
-    right: 0;
-    justify-content: flex-end;
-    margin: auto 0;
+    margin: auto 0 auto auto;
     padding: 0;
     border: 2px solid #fff;
     box-sizing: border-box;
@@ -20,4 +18,10 @@
 
 .profile__button-add:hover {
     opacity: .6;
+}
+
+@media screen and (max-width: 768px) {
+    .profile__button-add  {
+      margin: 36px 0 0;
+    }
 }
