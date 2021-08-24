@@ -4,27 +4,27 @@ let profileBio = document.querySelector('.profile__bio');
 let popup = document.querySelector('.popup');
 let closeButton = document.querySelector('.popup__close');
 let formElement = document.querySelector('.popup__form');
-let nameInput = document.querySelectorAll('.popup__input')[0];
-let bioInput = document.querySelectorAll('.popup__input')[1];
+let nameInput = document.querySelector('.popup__input_name');
+let bioInput = document.querySelector('.popup__input_bio');
 
-function editProfile() {
+function openPopup() {
   popup.classList.add('popup_opened');
+  profileName.textContent = nameInput.value;
+  profileBio.textContent = bioInput.value;
 }
 
-function closeProfile() {
+function closePopup() {
   popup.classList.remove('popup_opened');
-}
+}       
 
 function formSubmitHandler(evt) {
   evt.preventDefault();
   profileName.textContent = nameInput.value;
   profileBio.textContent = bioInput.value;
 
-  nameInput.value = profileName.textContent;
-  bioInput.value.value = profileBio.textContent;
-  closeProfile();
+  closePopup();
 }
 
-editButton.addEventListener('click', editProfile);
-closeButton.addEventListener('click', closeProfile);
+editButton.addEventListener('click', openPopup);
+closeButton.addEventListener('click', closePopup);
 formElement.addEventListener('submit', formSubmitHandler);

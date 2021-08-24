@@ -77,11 +77,19 @@
     background-color: transparent;
   }
   
+  p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+
   /**
    * 1. Remove the bottom border in Chrome 57-
    * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
    */
-  
+
+
   abbr[title] {
     border-bottom: none; /* 1 */
     text-decoration: underline; /* 2 */

@@ -13,6 +13,12 @@
   text-align: center;
   color: #FFFFFF;
   border: 0;
+  cursor: pointer;
+}
+
+.popup__save:hover {
+  opacity: 0.8;
+  transition: opacity .3s linear;
 }
 
 @media all and (max-width: 425px) {

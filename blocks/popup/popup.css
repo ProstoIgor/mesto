@@ -10,12 +10,6 @@
   bottom: 0;
   left: 0;
   display: none;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-.popup::before {
-  display: block;
-  content: '';
-  position: absolute;
-  background-color: #000;
-  opacity: .5;
-}
