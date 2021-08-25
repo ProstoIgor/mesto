@@ -1,4 +1,4 @@
-.open__input_name {
+.popup__input_type_bio {
   width: 358px;
   padding: 0;
   padding-bottom: 13px;
@@ -14,7 +14,7 @@
 }
 
 @media all and (max-width: 425px) {
-  .popup__input_name {
+  .popup__input_type_bio {
     width: 238px;
   }
 }

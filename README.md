@@ -1,6 +1,6 @@
 # Проект: Место
 ------------------------
-[Проект на GitHub](https://prostoigor.github.io/Russian_travel/)
+[Проект на GitHub](https://prostoigor.github.io/mesto/)
 -----------------------
 В этом проекте использовались технологии:
  - Flexbox;
