@@ -18,23 +18,3 @@
     align-content: center;
   }
 }
-  
-  
-  
-  /*
-  display: grid;
-  max-width: 336px;
-  margin: auto 0 auto 26.25px;
-  padding: 0;
-  grid-template-columns: minmax(auto, 294px) auto;
-  column-gap: 16px;
-}
-
-@media screen and (max-width: 425px) {
-  .profile__info {
-    margin: 22.25px 0 0;
-    width: 282px;
-    column-gap: 10px;
-    grid-template-columns: minmax(auto, 235px) auto;
-  }
-}
