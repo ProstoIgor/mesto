@@ -1,12 +1,27 @@
 .popup__input {
-  width: 358px;
+  max-width: 358px;
   padding: 0;
   padding-bottom: 13px;
   border: 0;
+  font-family: 'Inter','Helvetica Neue', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   outline: none;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .popup__input:last-of-type {
   margin-top: 30px;
+}
+
+@media all and (max-width: 425px) {
+  .popup__input {
+    width: 238px;
+  }
 }
