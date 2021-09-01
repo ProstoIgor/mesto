@@ -9,8 +9,8 @@ let bioInput = document.querySelector('.popup__input_type_bio');
 
 function openPopup() {
   popup.classList.add('popup_opened');
-  profileName.textContent = nameInput.value;
-  profileBio.textContent = bioInput.value;
+  nameInput.value = profileName.textContent;
+  bioInput.value = profileBio.textContent;
 }
 
 function closePopup() {
